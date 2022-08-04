@@ -2,7 +2,7 @@
 # bin/detect <build-dir>
 
 if [[ -f $1/engine/Makefile  ||  -f $1/configure ]]; then
-  echo "bobandi" && exit 0
+  echo "excalibur" && exit 0
 else
   echo "no" && exit 1
 fi
